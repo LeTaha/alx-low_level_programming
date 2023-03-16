@@ -1,5 +1,10 @@
 #include <stdio.h>
-int main(void)/*My fist code C in shell mode*/
+/**
+ * main
+ * Printing with comand puts
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
 return (0);

@@ -1,5 +1,5 @@
 #include <stdio.h>
-// Prints a message to the console
+/*Prints a message to the console*/
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");

@@ -1,9 +1,5 @@
 #include <stdio.h>
-/**
- * main
- * Printing with comand puts
- * Return: Always 0 (Success)
- */
+// Prints a message to the console
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");

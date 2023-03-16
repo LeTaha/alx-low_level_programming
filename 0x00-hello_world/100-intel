@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Get the C file name from the command line argument
+CFILE=$1
+
+# Use the compiler to generate the assembly code
+gcc -S -masm=intel $CFILE
+
+# Rename the output file to have the .s extension
+ASMFILE=$(basename $CFILE .c).s
+mv ${CFILE%.*}.s $ASMFILE

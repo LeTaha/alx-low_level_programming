@@ -1,6 +1,6 @@
 #include <stdio.h>
-int main(void)
+int main(void)/*My fist code C in shell mode*/
 {
 puts("\"Programming is like building a multilingual puzzle");
-return 0;
+return (0);
 }

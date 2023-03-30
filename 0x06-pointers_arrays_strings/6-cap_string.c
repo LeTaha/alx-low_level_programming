@@ -3,9 +3,9 @@
  * cap_string - capitalizes every first letter of a word in a string.
  * separators of words are:  space, tabulation,
  * new line, ,, ;, ., !, ?, \", (, ), {, and }.
- * @p: pointer to string.
+ * @str: pointer to string.
  *
- *Return: pointer to str.
+ * Return: pointer to str.
  */
 char *cap_string(char *str)
 {

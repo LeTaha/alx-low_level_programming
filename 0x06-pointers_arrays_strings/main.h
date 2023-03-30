@@ -39,6 +39,8 @@ char *leet(char *);
 
 char *rot13(char *);
 
+void print_number(int n);
+
 int _atoi(char *s);
 
 int _putchar(char c);

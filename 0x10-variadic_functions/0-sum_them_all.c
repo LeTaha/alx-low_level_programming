@@ -10,18 +10,16 @@
 
 int sum_them_all(const unsigned int n, ...)
 {
-	if ( n == 0)
+	if (n == 0)
 	{
 		return (0);
 	}
-	else 
+	else
 	{
 		va_list arg;
 		unsigned int param, sum = 0;
-		
 		/* initialize the argument list from the start */
 		va_start(arg, n);
-		
 		/* iterate through all parameter values*/
 		for (param = 0; param < n; param++)
 		{
